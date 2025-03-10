@@ -1,0 +1,16 @@
+# melos_managed_dependency_overrides: config,data,database_realm,dependency_injection,domain,network_retrofit,shared
+dependency_overrides:
+  config:
+    path: ../config
+  data:
+    path: ../data
+  database_realm:
+    path: ../database-realm
+  dependency_injection:
+    path: ../dependency_injection
+  domain:
+    path: ../domain
+  network_retrofit:
+    path: ../network-retrofit
+  shared:
+    path: ../shared

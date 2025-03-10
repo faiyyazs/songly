@@ -1,0 +1,17 @@
+{
+  "appName": "Songly",
+  "musicApp": "Music App",
+  "welcomeTo": "Welcome to ",
+  "worldOfMusic": "World of Music ",
+  "goodMorning": "Good Morning,",
+  "itemAddedToCart": "Added to cart! Total items: ",
+  "viewCart": "View Cart",
+  "noDataFound": "No data found.\nPlease try again",
+  "grooveBasket": "Groove Basket",
+  "mostPlayedAllTime" : "Most Played All The Time",
+  "cartSummary": "Cart Summary",
+  "grandTotal": "Grand Total",
+  "orderPlaced": "Order placed successfully!",
+  "checkout": "Checkout",
+  "placeOrder": "Place Order"
+}

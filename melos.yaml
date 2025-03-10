@@ -1,0 +1,17 @@
+name: songly
+
+packages:
+  - ../songly
+  - packages/**
+
+command:
+  bootstrap:
+    usePubspecOverrides: true
+    hooks:
+      post: flutter pub get
+
+scripts:
+  build:runner:
+    run: melos exec --depends-on="build_runner" \
+      dart run build_runner build --delete-conflicting-outputs
+    description: Runs build_runner for all packages.

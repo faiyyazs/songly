@@ -1,0 +1,12 @@
+# melos_managed_dependency_overrides: config,data,dependency_injection,domain,shared
+dependency_overrides:
+  config:
+    path: ../config
+  data:
+    path: ../data
+  dependency_injection:
+    path: ../dependency_injection
+  domain:
+    path: ../domain
+  shared:
+    path: ../shared
