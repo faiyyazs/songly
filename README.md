@@ -53,16 +53,18 @@ Below are some screenshots showcasing the app's features:
 
 ## Project Structure
 
-music-lovers-app/
-├── app                # Presentation layer (UI, Navigation, etc.)
-├── data               # Data layer (Repositories, Data Providers)
-├── domain             # Business Logic (Use Cases, Repository Contracts)
-├── shared             # Shared Models and Utilities
-├── config             # Environment configuration using Flutter env variables
-├── dependency_injection & dependency_registry  # DI setup and module wiring
-├── localisation       # Multi-language support
-├── network-retrofit   # API Data Provider using Retrofit/Dio
-├── database-realm     # Local NoSQL database using Realm
+| Module                                         | Description                                                    |
+|------------------------------------------------|----------------------------------------------------------------|
+| **app**                                        | Presentation layer (UI, Navigation, etc.)                      |
+| **data**                                       | Data layer (Repositories, Data Providers)                      |
+| **domain**                                     | Business Logic (Use Cases, Repository Contracts)               |
+| **shared**                                     | Shared Models and Utilities                                    |
+| **config**                                     | Environment configuration using Flutter environment variables  |
+| **dependency_injection & dependency_registry** | DI setup and module wiring                                     |
+| **localisation**                               | Multi-language support                                         |
+| **network-retrofit**                           | API Data Provider using Retrofit/Dio                           |
+| **database-realm**                             | Local NoSQL database using Realm                               |
+
 
 ## Test Cases
 
